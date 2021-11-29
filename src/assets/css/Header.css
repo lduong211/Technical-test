@@ -1,0 +1,137 @@
+.active {
+    color: white !important;
+}
+
+p {
+    font-size: 14px;
+}
+
+.dropdown p {
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+
+header .title {
+    background-color: white;
+    height: 100%;
+    width: 40%;
+}
+
+.title .title-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 55px;
+}
+
+header .title .home-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+header .title .home-btn p{
+    color: #000;
+    margin-left: 15px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.title .title-container{
+    text-align: left;
+    padding: 100px 0 36% 70px;
+}
+
+.title .title-container p{
+    color: #181949;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+header .info {
+    width: 60%;
+    position: relative;
+    background: url('../images/header.png') center center /cover;
+}
+
+header .info .dropdown {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 0 50px 0 250px;
+    background-color: #181949;
+    line-height: 14px;
+}
+
+header .info .navbar {
+    position: absolute;
+    display: flex;
+    font-size: 14px;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    padding: 45px 105px 0 25px;
+}
+
+header .info .target {
+    position: absolute;
+    width: 100%;
+    top: 120px;
+}
+
+header .info .target p{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.671);
+    font-size: 22px;
+    font-weight: 600;
+    margin: 50px;
+    margin-bottom: 15px;
+}
+
+header .info .target-title {
+    display: inline-block;
+    position: relative;
+}
+
+header .info .target .underline {
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.671);;
+    transition: all 1s ease;
+}
+
+header .info .target-content {
+    display: flex;
+    padding: 50px 100px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+header .target-content h1{
+    color: #CFE5FF;
+    font-size: 64px;
+}
+
+header .target-content p{
+    color: #fff !important;
+    margin-top: 10px !important;
+    font-weight: 100 !important;
+}
+

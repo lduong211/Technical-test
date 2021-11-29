@@ -1,0 +1,44 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 45px 0;
+}
+
+.content h3 {
+    color: #181949;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.bg-white {
+    margin: 0 40px;
+    padding: 40px 10px;
+    background-color: white;
+    color: #181949;
+}
+
+.bg-white h1 {
+    font-size: 48px;
+    padding: 35px;
+}
+
+.bg-gray {
+    margin: 0 40px;
+    padding: 40px 10px;
+    color: #181949;
+    background-color: #F4F4F4;
+}
+
+.bg-green {
+    margin: 0 40px;
+    padding: 40px 40px;
+    color: #181949;
+    background-color: #F3F9FF;
+}
+
+.multi-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+

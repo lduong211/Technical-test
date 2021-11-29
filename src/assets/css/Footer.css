@@ -1,0 +1,30 @@
+footer {
+    display: flex;
+    background-color: #F3F9FF;
+    color: #181949;
+    margin: 0 40px;
+    padding: 0 100px;
+    text-align: left;
+    border: 2px solid rgb(209, 209, 209);;
+}
+
+.footer-items {
+    flex-basis: 33%;
+    padding: 30px;
+    border-left: 1px solid rgb(209, 209, 209);
+    border-right: 1px solid rgb(209, 209, 209);;
+}
+
+.footer-items p{
+    display: inline-block;
+    color: #666;
+    margin: 10px 0;
+}
+
+.footer-items:nth-child(1){
+    border-left: none;
+}
+
+.footer-items:nth-child(3) {
+    border-right: none;
+}
